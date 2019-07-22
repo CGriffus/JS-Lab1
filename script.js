@@ -21,6 +21,7 @@ I am currently ${age} years old and my birthday is on ${birthday}.`);
 for (let i = 0; i < lifeEvents.length; i++) {
   console.log(lifeEvents[i]);
 }
+
 let randomNumber = Math.floor(Math.random() * 10) + 1;
 let counter = 0;
 while (true) {
